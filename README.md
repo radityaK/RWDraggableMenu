@@ -12,7 +12,11 @@ RWDraggableMenu is a draggable button with iOS assistive touch behavior. It can 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Screenshots
+
 ## Requirements
+
+iOS 7+
 
 ## Installation
 
