@@ -8,9 +8,19 @@
 
 RWDraggableMenu is a draggable button with iOS assistive touch behavior. It can expand and collapse to reveal the menus. RWDraggableMenu is a subclass of UIView.
 
-## Example
+## Usage
 
+### Podfile
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+### Implementation
+Use this line to import the RWDraggable menu `#import "RWDraggableMenu.h"` then instantiate the class using the following command :
+`// Supplied a set of icon for you draggable menu`
+`NSArray *iconsArray = @[@"drag-icon", @"comment-icon", @"share-icon", @"copy-icon", @"bookmark-icon"];`
+`RWDraggableMenu * dragMenu = [[RWDraggableMenu alloc] init];
+ dragMenu.delegate = self;
+ [self.view addSubview:[dragMenu setupDragMenuInView:self.view width:70 height:70 backgroundColorRed:51/255.0 green:102/255.0 blue:153/255.0 alpha:0.5 icons:iconsArray]];`
+
 
 ## Screenshots
 
