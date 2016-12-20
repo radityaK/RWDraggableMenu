@@ -28,6 +28,10 @@
     }
 }
 
+- (void)RWSubMenuTapAtIndex:(NSInteger)index {
+    NSLog(@"RWSubMenuTapAtIndex : %ld", index);
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

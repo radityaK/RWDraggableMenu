@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/RWDraggableMenu.svg?style=flat)](http://cocoapods.org/pods/RWDraggableMenu)
 [![Platform](https://img.shields.io/cocoapods/p/RWDraggableMenu.svg?style=flat)](http://cocoapods.org/pods/RWDraggableMenu)
 
+
+RWDraggableMenu is a draggable button with iOS assistive touch behavior. It can expand and collapse to reveal the menus. RWDraggableMenu is a subclass of UIView.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
