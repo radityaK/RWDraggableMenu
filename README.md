@@ -30,7 +30,7 @@ dragMenu.delegate = self;
 ```objective-c
 // Use delegate to add custom action if user tap one of your buttons
 - (void)RWSubMenuTapAtIndex:(NSInteger)index {
-NSLog(@"RWSubMenuTapAtIndex : %ld", index);
+    NSLog(@"RWSubMenuTapAtIndex : %ld", index);
 }
 ```
 
