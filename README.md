@@ -19,9 +19,11 @@ Use this line to import the RWDraggable menu `#import "RWDraggableMenu.h"` then 
 ```objective-c
 // Supplied a set of icon for you draggable menu`
 NSArray *iconsArray = @[@"drag-icon", @"comment-icon", @"share-icon", @"copy-icon", @"bookmark-icon"];`
+
+// Create the draggable menu and add it as a subview
 RWDraggableMenu * dragMenu = [[RWDraggableMenu alloc] init];
- dragMenu.delegate = self;
- [self.view addSubview:[dragMenu setupDragMenuInView:self.view width:70 height:70 backgroundColorRed:51/255.0 green:102/255.0 blue:153/255.0 alpha:0.5 icons:iconsArray]];
+dragMenu.delegate = self;
+[self.view addSubview:[dragMenu setupDragMenuInView:self.view width:70 height:70 backgroundColorRed:51/255.0 green:102/255.0 blue:153/255.0 alpha:0.5 icons:iconsArray]];
 ```
 
 
