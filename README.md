@@ -17,7 +17,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Use this line to import the RWDraggable menu `#import "RWDraggableMenu.h"` then instantiate the class using the following command :
 
 ```objective-c
-// Supplied a set of icon for you draggable menu`
+// Supplied a set of icon for your draggable menu`
 NSArray *iconsArray = @[@"drag-icon", @"comment-icon", @"share-icon", @"copy-icon", @"bookmark-icon"];`
 
 // Create the draggable menu and add it as a subview
