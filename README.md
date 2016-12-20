@@ -25,7 +25,14 @@ RWDraggableMenu * dragMenu = [[RWDraggableMenu alloc] init];
 dragMenu.delegate = self;
 [self.view addSubview:[dragMenu setupDragMenuInView:self.view width:70 height:70 backgroundColorRed:51/255.0 green:102/255.0 blue:153/255.0 alpha:0.5 icons:iconsArray]];
 ```
+### Delegate
 
+```objective-c
+// Use delegate to add custom action if user tap one of your buttons
+- (void)RWSubMenuTapAtIndex:(NSInteger)index {
+NSLog(@"RWSubMenuTapAtIndex : %ld", index);
+}
+```
 
 ## Screenshots
 
