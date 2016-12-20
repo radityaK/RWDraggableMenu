@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RWDraggableMenu_Example' do
+  pod 'RWDraggableMenu', :path => '../'
+
+  target 'RWDraggableMenu_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end
