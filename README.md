@@ -15,8 +15,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Screenshots
 
 <p align="center" >
-<img src="https://github.com/radityaK/RWDraggableMenu/blob/master/Simulator%20Screen%20Shot%20Dec%2020%2C%202016%2C%201.44.34%20PM.png" alt="Screenshot 1" title="Screenshot 1">
-<img src="https://github.com/radityaK/RWDraggableMenu/blob/master/Simulator%20Screen%20Shot%20Dec%2020%2C%202016%2C%201.44.38%20PM.png" alt="Screenshot 2" title="Screenshot 2">
+<img src="https://github.com/radityaK/RWDraggableMenu/blob/master/Simulator%20Screen%20Shot%20Dec%2020%2C%202016%2C%201.44.34%20PM.png" width=320 height=569 alt="Screenshot 1" title="Screenshot 1">
+<img src="https://github.com/radityaK/RWDraggableMenu/blob/master/Simulator%20Screen%20Shot%20Dec%2020%2C%202016%2C%201.44.38%20PM.png" width=320 height=569 alt="Screenshot 2" title="Screenshot 2">
 </p>
 
 ## Requirements
