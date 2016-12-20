@@ -1,0 +1,6 @@
+framework module Pods_RWDraggableMenu_Tests {
+  umbrella header "Pods-RWDraggableMenu_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

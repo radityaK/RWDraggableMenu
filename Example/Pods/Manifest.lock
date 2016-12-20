@@ -1,0 +1,19 @@
+PODS:
+  - Kiwi (2.4.0)
+  - RWDraggableMenu (0.1.0)
+
+DEPENDENCIES:
+  - Kiwi
+  - RWDraggableMenu (from `../`)
+
+EXTERNAL SOURCES:
+  RWDraggableMenu:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  RWDraggableMenu: 71544d1268684b9301828bd9b8adb8973de5f858
+
+PODFILE CHECKSUM: 38aa140719dac95d5b3b37afa57f9b73b99c936e
+
+COCOAPODS: 1.1.1

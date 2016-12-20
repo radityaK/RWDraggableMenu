@@ -1,0 +1,6 @@
+framework module RWDraggableMenu {
+  umbrella header "RWDraggableMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
